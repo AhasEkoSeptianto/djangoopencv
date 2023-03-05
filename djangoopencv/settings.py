@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-eg@6%irkd)=d9-75)u+3ygc=ohr3+z8qf+n6*p0ro($sqkm*bg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app']
 
 # Rest Framework
 REST_FRAMEWORK = {
