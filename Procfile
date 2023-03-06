@@ -1,1 +1,1 @@
-web: gunicorn 'djangoopencv.wsgi'
+web: gunicorn 'djangoopencv.wsgi' --log-file -
